@@ -1,0 +1,94 @@
+body{
+    font-size: 120%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffd6ff;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.elso{
+    float: left;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin-left: 13%;
+}
+.masodik{
+    float: right;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin-right: 11%;
+}    
+td{
+    border: solid #c8b6ff 1px;
+    padding: 1%;
+    background-color: #e7c6ff;
+    text-align: center;
+}
+tr{
+    border: solid #c8b6ff 1px;
+    padding: 1%;
+    box-shadow: 5px 10px 15px #c8b6ff;
+}
+.header{
+    position: sticky;
+    top: 0;
+    height: 35%;
+    width: 75%;
+    background-color: #e7c6ff;
+    text-align: center;
+    display: block;
+    justify-items: center;
+    margin: auto;
+    margin-top: 0;
+    border: solid #c8b6ff 1px;
+    margin-bottom: 3%;
+    box-shadow: 5px 10px 15px #c8b6ff;
+}
+a:hover{
+    font-size: larger;
+    color:#ffd6ff;
+}
+li{
+    text-decoration: none;
+}
+.kep{
+    display: block;
+    float: left;
+    width: 20%;
+    height: 20%;
+    transition: 3s;
+}
+.image{
+    display: block;
+    float: right;
+    width: 20%;
+    height: 20%;
+    transition: 3s;
+}
+.image:hover{
+    width: 30%;
+    height: 30%;
+    border-radius: 15%;
+}
+.kep:hover{
+    width: 30%;
+    height: 30%;
+    border-radius: 15%;
+}
+ul { 
+    list-style-type: none; 
+}
+a{
+    color: #c8b6ff;
+    text-decoration: none;
+}
+div div{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    float: inline-end;
+    width: 60%;
+    height: 75%;
+}
